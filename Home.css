@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Josefin+Slab:ital,wght@1,600&family=Montserrat:wght@600&family=Poiret+One&family=Poppins:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+   
+  }
+  body{
+    overflow-x: hidden;
+    height: 10000px;
+    font-family: 'Poppins', sans-serif;
+     background-color: #697c8a; 
+    
+
+  }
+ .bar .logo
+{
+  cursor: pointer;
+  position: fixed;
+  left: 7px;
+  top: -1px;
+}
+  nav .lsa span{
+    color: rgb(231, 0, 0);
+   position: absolute;
+   top: -25px;
+    left: 0px;
+   font-weight: 900;
+   text-transform: uppercase;
+   font-size: 23PX;
+    letter-spacing: 6px;
+  }
+  .lsa {
+    cursor: pointer;
+    position: absolute;
+    font-size: 12.5PX; 
+    color: white;
+    text-transform: uppercase;
+    top: 41PX;
+    left: 92PX;
+    font-weight: bold;
+  }
+  
+ nav ul li{
+  display: inline-block;
+ }
+
+  ul li{
+    float: right;
+    padding: 0 18px;
+   line-height: 80px;
+   font-size: 14px;
+  }
+  ul li a{
+    cursor: pointer;
+    color: #f6b91f;
+    position: relative;
+    left: -14px;
+  }
+
+  .bar{
+    transition: 1s;
+    background-color:#273037;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+    height: 80px;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+  }
+  ul li a:hover{
+    text-shadow: 0px 0px 1px #f6b91f;
+    transition: .2s;
+    border-bottom:2px solid #ffffff ;  
+  }
+  #Contact{
+    padding: 5PX;
+    border:1.8px solid;
+    font-size: 10PX;
+    font-weight: bolder;
+  }
+  #Contact:hover{
+    text-shadow: 0px 0px 1px  #ffffff90 ;
+    color:black;
+  border-color: white;
+  background-color: #ffffff90;
+  box-shadow:0px 0px 20px white ;
+
+  }
+  .IMGg{
+    float: right;
+     max-width: 100%;
+     z-index: -2;
+    height: auto;
+    vertical-align: bottom; 
+    margin-top: 80px;
+    margin-right: 3px;
+    
+  
+  }
+.heading{
+  position: relative;
+  top: 24rem;
+left: 23rem;
+  color: #263238;
+  font-size: 3rem;
+  line-height: 1.1;
+  z-index: 1;
+}
+#new{
+  color:#d0990f ;
+   font-size: 2.2rem;
+}
+  
+  .degree{
+    position:absolute;
+   transform: rotate(-72deg);
+   bottom: 39rem;
+   left: -8rem;
+   z-index:1;
+   
+   
+}
+.line{
+  position: absolute;
+  transform: rotate(60deg);
+  top: 18.5rem;
+  right:0.8rem;
+  z-index: 1;
+  opacity: 0.4;
+  
+
+
+  
+}
+#quiad{
+  position: relative;
+  left: 27rem;
+  top: -100px;
+  z-index: -1;
+}
+#quiad2{
+  position: relative;
+  left: 16.9rem;
+  top: -100px;
+}
+#Since{
+  position: relative;
+  bottom: 110px;
+  width: 571px;
+  font-size: 1rem;
+  font-weight: lighter; 
+}
+#Since:hover{
+  color: #263238b8;
+ border-bottom:1px solid black;
+
+}
+@media (max-width: 1024px){
+  .IMGg{
+    width: 210px;}
+    .degree{
+      position: absolute;
+      top: -2rem;
+       left: -10rem;
+       
+
+
+    }
+  }
+  @media (max-width: 500px){
+    .heading{
+     font-size:2.2rem ;
+
+    }
+    .heading{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(15%, 20%);
+    
+        }
+      
+        .IMGg{
+          position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-30%, 60%);
+        }
+    
+    
+    .bar{
+      position: relative;
+    }
+    }
+   
+
+
+
